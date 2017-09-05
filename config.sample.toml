@@ -1,0 +1,22 @@
+# To get config values: Discord -> User Settings -> Appearance -> Developer Mode
+# Right click on your desired guild or channel and Copy ID
+
+# ID of user which did the mass-kick/ban
+# You may comment this out (put an octothorpe before the line, like this line) to list all IDs in console
+# so you may copy the ID of the offending kicker/banner
+executor = "143300771050553345"
+
+# ID of guild (Discord Server) in which the mass-kick/ban was made
+guild = "303230156812845066"
+
+# ID of channel to announce the mentions of kicked/banned users
+channel = "346684638305189888"
+# From there, you may add friends and message people that were affected by the mass-kick/ban.
+
+# Bot Token for this bot to use as its account
+# https://discordapp.com/developers/applications/me
+token = "YOUR BOT TOKEN HERE"
+# Remember to authorize it to your server (replace YOUR_BOT_CLIENT_ID):
+# https://discordapp.com/oauth2/authorize?client_id=YOUR_BOT_CLIENT_ID&scope=bot&permissions=128
+
+# okay, now rename this file to "config.toml" and it'll do!
